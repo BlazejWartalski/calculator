@@ -1,0 +1,107 @@
+body {
+    overflow:hidden;
+    margin: 0px;
+    background-color: rgb(247, 240, 240);
+}
+.background {
+    height: 100vh;
+    width: 100vw;
+}
+
+.calculator {
+    border-style: solid;
+    height: 500px;
+    width:350px;
+    margin: 100px;
+    margin-left: 200px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:rgba(0, 0, 0, 0.63);
+}
+
+.screen {
+    border-style: solid;
+    border-radius: 5px;
+    margin: 20px;
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    height: 75px;
+    width: 250px;
+    background-color: rgb(184, 178, 178);
+    font-size: 35px;
+}
+.cleardeletebuttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 280px;
+    height:45px;
+    margin-bottom: 10px;
+
+}
+.clear {
+    border-style:solid;
+    width:80px;
+    background-color:rgba(220, 20, 60, 0.678);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: large;
+}
+
+.delete {
+    border-style:solid;
+    width: 80px;
+    background-color:rgb(2, 2, 173);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: large;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    border-style:solid;
+    height: 300px;
+    width: 300px;
+}
+
+.buttonsleft {
+    border-style:solid;
+    height: 300px;
+    width: 225px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttonsright{
+    border-style:solid;
+    height: 300px;
+    width: 75px;
+}
+
+.operator{
+    border-style:solid;
+    width:70px;
+    height:69px;
+    background-color:rgb(121, 73, 73);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+}
+
+.number {
+    border-style:solid;
+    width:65px;
+    height:70px;
+    flex-wrap: wrap;
+    background-color:rgb(76, 226, 219);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+}
