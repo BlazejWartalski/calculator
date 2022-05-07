@@ -85,8 +85,8 @@ body {
 
 .operator{
     border-style:solid;
-    width:70px;
-    height:69px;
+    width:72px;
+    height:75px;
     background-color:rgb(121, 73, 73);
     display:flex;
     justify-content: center;
@@ -96,8 +96,20 @@ body {
 
 .number {
     border-style:solid;
-    width:65px;
-    height:70px;
+    width:72px;
+    height:75px;
+    flex-wrap: wrap;
+    background-color:rgb(76, 226, 219);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+}
+
+.equalbtn {
+    border-style:solid;
+    width:72px;
+    height:75px;
     flex-wrap: wrap;
     background-color:rgb(76, 226, 219);
     display:flex;
